@@ -2,9 +2,11 @@
   "name": "2-ignition",
   "version": "1.0.0",
   "description": "Igniting the app",
-  "main": "App.js",
+ 
   "scripts": {
-    "test": "Jest"
+    "test": "Jest",
+    "start":"parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "Aditi",
   "license": "ISC",
@@ -15,5 +17,8 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browsersList":[
+    "last 2 versions"
+  ]
 }

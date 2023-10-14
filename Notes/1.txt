@@ -1,8 +1,24 @@
 What is Emmet?
-Web development toolkit that greatly improves HTML and CSS workflow. It is a set of plug-ins for text editors and IDEs that enables developers to write HTML and CSS code faster and more efficiently.
+
+Web development toolkit that greatly improves HTML and CSS workflow.
+It is a set of plug-ins for text editors and IDEs that enables developers
+to write HTML and CSS code faster and more efficiently.
 
 -----------------------------------------------------------------------------------------
 
 What is CrossOrigin in script tag?
-The crossorigin attribute in the <script> tag is used to specify how the browser should handle loading the script if it is hosted on a different domain than the one serving the web page. This attribute is particularly relevant in the context of security and preventing potential security vulnerabilities like Cross-Origin Scripting (XSS) attacks.
-When you include a <script> tag to load an external JavaScript file, the browser generally enforces a same-origin policy. This policy means that scripts can only be loaded from the same domain, protocol, and port as the web page itself. If you try to load a script from a different domain without proper configuration, the browser might block the request due to security concerns.
+
+The crossorigin attribute in the <script> tag is used to specify how the browser should handle loading
+the script if it is hosted on a different domain than the one serving the web page.
+This attribute is particularly relevant in the context of security and preventing potential security
+vulnerabilities like Cross-Origin Scripting (XSS) attacks.
+When you include a <script> tag to load an external JavaScript file,
+the browser generally enforces a same-origin policy.
+This policy means that scripts can only be loaded from the same domain, protocol, and port
+as the web page itself. If you try to load a script from a different domain without proper configuration, 
+the browser might block the request due to security concerns.
+
+-----------------------------------------------------------------------------------------
+
+React-- core package
+ReactDOM-- package for manipulating DOM

@@ -1,0 +1,66 @@
+what is npm?
+npm doesn't have any official fullname. 
+A react project needs many packages, which are provided by npm.
+hence, we can say npm provides PACKAGE MANAGEMENT
+
+
+What is parcel?
+-zero configuration- module bundlers 
+-optimize the code and assets(images, fonts, css)
+-supports hot module replacement (HMR)
+-has file watcher algorithm (which is written in C++)
+-does caching while development
+-makes web app compatible with older versions
+-supports https on dev environment
+-manages port number
+-has consistent hasing algorithm
+
+
+what is webpack?
+-supports code splitting
+-lazy loading
+-highly configurable
+
+
+What is `.parcel-cache`
+-This directory is a cache folder created by parcel
+-When run "parcel build" , it preprocesses and optimize files
+-during this intermediate files and cache may be generated
+-this is stored here to avoid redoing certain tasks again
+-saving time and resources
+
+
+What is `npx` ?
+-execute without installation using npm
+
+
+What is difference between `dependencies` vs `devDependencies`?
+-dependencies:
+    -packages that are needed by project to run in production
+    -when deployed, package manager will install these in the production environment
+
+-devDependencies:
+    -packages needed only for development and testing
+    -ex:testing frameworks, build tools
+
+-To run a project in diffferent environment, both dependencies and devDependencies will be installed in the system.
+-But for production environment, only dependencies will be installed, keeping the environment lean and avoid unncecessary packages.
+
+
+What is tree Shaking?
+-process of eliminating unused code from final bundled files.
+
+
+What is Hot Module Replacement?
+-It allows developers to update modules in a running application without a full page refresh.
+-When a module is modified, HMR replaces the old version of the module with the updated one, preserving the state of the application.
+
+
+difference between `package.json` and `package-lock.json`
+-package.json defines the project configuration and the intended versions of dependencies
+-package-lock.json is used to lock the dependency versions and provide a consistent and reproducible environment for the project.
+
+
+^ - caret and ~ - tilda
+-The caret operator is useful when you want to ensure compatibility with newer versions that may introduce new features or fixes while avoiding major version updates, which might include breaking changes.
+-The tilde operator is useful when you want to stay up-to-date with bug fixes and patches while avoiding updates that might include new features or breaking changes.
