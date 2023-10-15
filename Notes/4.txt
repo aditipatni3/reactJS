@@ -1,0 +1,15 @@
+What is JSX?
+-JSX allows you to write HTML-like code directly within JavaScript files, making it easier to visualize and understand the structure of the user interface.
+-Behind the scenes:
+-JSX=> React.createElement =>Object =>HTML(DOM)
+
+
+Role of type attribute in script tag? What options can I use there?
+-
+
+
+{TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX
+-
+
+
+React reconciliation key?
